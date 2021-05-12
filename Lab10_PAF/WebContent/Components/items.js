@@ -2,6 +2,15 @@
  * 
  */
  
+ //hide alert
+$(document).ready(function() {
+
+	$("#alertSuccess").hide();
+	$("#alertError").hide();
+	$("#hidItemIDSave").val("");
+	$("#formResearcher")[0].reset();
+});
+ 
  $(document).on("click", "#btnSave", function(event)
 { 
 	// Clear alerts---------------------
