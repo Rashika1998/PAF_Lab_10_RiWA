@@ -13,8 +13,6 @@
 </head>
 <body>
 
-
-
 	<div class="container"><div class="row"><div class="col-6"> 
 		<h1>Items Management V10.1</h1>
 		<form id="formItem" name="formItem">
